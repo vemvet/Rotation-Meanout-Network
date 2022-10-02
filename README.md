@@ -33,7 +33,7 @@ preds = model(img) #(1,8)
 import torch
 from retrieval_models.resnet_hash import ResNet_RM_Hash
 
-model = ResNet_RM(
+model = ResNet_RM_Hash(
         model_name='resnet18',
         thete_interval=90,
         pretrained=True,
