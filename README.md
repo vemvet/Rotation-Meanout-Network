@@ -43,7 +43,7 @@ model = ResNet_RM_Hash(
 )
 
 img = torch.randn(1, 3, 224, 224)
-hashcode, preds = model(img)
+hashcode, preds = model(img) #(1.16),(1,8)
 ```
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details
